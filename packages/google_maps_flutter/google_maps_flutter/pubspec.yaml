@@ -6,7 +6,11 @@ version: 0.5.25+2
 dependencies:
   flutter:
     sdk: flutter
-  flutter_plugin_android_lifecycle: ^1.0.6
+  flutter_plugin_android_lifecycle:
+    git:
+      url: git@github.com:unimap/plugins.git
+#     url: https://github.com/unimap/plugin.git
+      path: packages/flutter_plugin_android_lifecycle
   
 dev_dependencies:
   flutter_test:
